@@ -1,0 +1,35 @@
+{
+  "name": "@hongshuapp/border-sdk",
+  "version": "1.0.0",
+  "description": "数字边境内容审核平台 Node.js SDK",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "build": "tsc",
+    "prepare": "npm run build"
+  },
+  "keywords": [
+    "border",
+    "content-moderation",
+    "audit",
+    "hongshuapp"
+  ],
+  "author": "Hongshuapp Team",
+  "license": "Apache-2.0",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/hongshuapp/border-js-sdk"
+  },
+  "bugs": {
+    "url": "https://github.com/hongshuapp/border-js-sdk/issues"
+  },
+  "homepage": "https://border.hongshuapp.com",
+  "dependencies": {},
+  "devDependencies": {
+    "typescript": "^5.3.3",
+    "@types/node": "^20.11.0"
+  },
+  "engines": {
+    "node": ">=14.0.0"
+  }
+}
